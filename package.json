@@ -1,9 +1,5 @@
 {
-  "name": "astal-shell",
   "dependencies": {
-    "astal": "/nix/store/a03yww4pr8lf6d2b1db6mhnw96x0hj0g-astal-gjs/share/astal/gjs"
-  },
-  "scripts": {
-    "dev": "ags run --gtk=4 app.ts"
+    "ags": "*"
   }
 }
