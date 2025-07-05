@@ -252,11 +252,11 @@ export default function Bar(gdkmonitor: Gdk.Monitor) {
       <centerbox>
         <box $type="start">
           <Clock />
+          <Wireless />
           <Mpris />
         </box>
         <box $type="end">
           <Tray />
-          <Wireless />
           <AudioOutput />
           <Battery />
         </box>
