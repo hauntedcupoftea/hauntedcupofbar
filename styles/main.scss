@@ -2,13 +2,13 @@
 
 window.Bar {
   background: transparent;
-  color: theme.$fg-color;
-  font-family: "Fira Code Nerd Font", "sans-serif";
-  font-weight: bold;
+  /* color: theme.$fg-color; */
+  font-family: "FiraCode Nerd Font";
+  font-weight: 700;
 
   >centerbox {
     background: theme.$bg-color;
-    border-radius: 10px;
+    border-radius: 8px;
     margin: 0px;
   }
 
