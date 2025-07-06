@@ -249,7 +249,7 @@ export default function Bar(gdkmonitor: Gdk.Monitor) {
       anchor={TOP | LEFT | RIGHT}
       application={app}
     >
-      <centerbox>
+      <centerbox class="bar">
         <box $type="start">
           <Clock />
           <Wireless />
